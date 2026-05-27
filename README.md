@@ -1,6 +1,6 @@
 # MLOps Assignment 2 - Goodreads Genre Classification
 
-Fine-tuned DistilBERT model for book genre classification using Hugging Face Transformers and Kaggle GPU.
+Fine-tuned **DistilBERT** model for book genre classification using Hugging Face Transformers on Kaggle GPU.
 
 ## Results
 
@@ -12,9 +12,17 @@ Fine-tuned DistilBERT model for book genre classification using Hugging Face Tra
 
 ## Links
 
-- **Kaggle Notebook**: [Add your Kaggle Notebook Link here]
+- **Kaggle Notebook**: [https://www.kaggle.com/code/g25ait2106/ml-ops-assignment-2](https://www.kaggle.com/code/g25ait2106/ml-ops-assignment-2)
 - **Hugging Face Model**: [https://huggingface.co/BhavikSolanki/ML-OPS-Assignment2](https://huggingface.co/BhavikSolanki/ML-OPS-Assignment2)
-- **W&B Dashboard**: Not tracked (offline mode used due to Kaggle issues)
+- **W&B Dashboard**: Not available (W&B tracking had authentication issues in Kaggle environment)
+
+## Project Overview
+
+This project demonstrates a complete MLOps pipeline:
+- Loading pre-trained model from Hugging Face
+- Fine-tuning on Kaggle GPU
+- Model evaluation
+- Deployment to Hugging Face Hub
 
 ## Setup Instructions
 
